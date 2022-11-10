@@ -30,3 +30,38 @@ a {
     background-color: #1f2937;
     padding: 0px 200px;
 }
+
+.awesome {
+    display: flex;
+    padding: 50px 200px;
+    background-color: #1f2937;
+    gap: 100px;
+}
+
+button {
+    background-color: #3882f6;
+    color: #f9faf8;
+    border: none;
+    border-radius: 8px;
+    padding: 8px 24px;
+}
+
+
+.placeholder {
+    height: 300px;
+    display: flex;
+    flex: auto;
+}
+
+.hero-main {
+    font-size: 48px;
+    color: #f9faf8;
+    margin-bottom: 16px;
+}
+
+.hero-secondary {
+    font-size: 18px;
+    color: #e5e7eb;
+    margin-bottom: 16px;
+}
+
