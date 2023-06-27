@@ -37,13 +37,7 @@ a {
 .awesome {
     display: flex;
     justify-content: space-between;
-    padding: 50px 200px;
     background-color: #1f2937;
-    gap: 100px;
-}
-
-.placeholder {
-    max-width: 300px;
 }
 
 button {
@@ -56,15 +50,16 @@ button {
 }
 
 .awesome-container {
+    margin-left: 20%;
     display: flex;
     flex-direction:column;
     gap: 16px;
 }
 
 .placeholder {
-    height: 300px;
-    display: flex;
-    flex: auto;
+    height: 100%;
+    margin-right: 20%;
+    max-width: 300px;
 }
 
 .hero-main {
